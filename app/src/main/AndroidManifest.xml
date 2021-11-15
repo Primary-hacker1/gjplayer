@@ -16,13 +16,24 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
 
-        <activity android:name="com.just.news.ui.activity.LoginActivity">
+        <activity
+            android:name="com.just.news.ui.activity.WelComeActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppWelcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.just.news.MainActivity" />
+
+        <activity
+            android:name="com.just.news.ui.activity.LoginActivity"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name="com.just.news.MainActivity"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

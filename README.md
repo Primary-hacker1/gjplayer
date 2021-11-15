@@ -12,8 +12,9 @@
 
 [6]:https://github.com/hegaojian/JetpackMvvm/blob/master/LICENSE
 
-# 👕👕👕:JetPackMvvm
+# 👕👕👕:gjPlayer 音视频自创ing
 
+- **基于FFmpeg打造万能播放器，直播会议等高级轮子**
 - **基于MVVM模式集成谷歌官方推荐的JetPack组件库：LiveData、ViewModel、Lifecycle、Navigation、Retrofit、 RxJava、
   hilt组件,后期增加flow持续更新最新最屌技术**
 - **使用kotlin语言，添加大量拓展函数，简化代码**

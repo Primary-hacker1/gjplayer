@@ -12,7 +12,8 @@ import dagger.hilt.android.AndroidEntryPoint
  *@author zt
  */
 @AndroidEntryPoint
-class SettingFragment : CommonBaseFragment<FragmentSettingBinding>(FragmentSettingBinding::inflate) {
+class SettingFragment :
+    CommonBaseFragment<FragmentSettingBinding>(FragmentSettingBinding::inflate) {
 
     override fun initView() {
         initToolbar()
